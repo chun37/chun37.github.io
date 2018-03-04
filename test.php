@@ -7,12 +7,7 @@
     <link href="./style.css" rel="stylesheet" type="text/css">
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
-<?php
-function getAgeFromBirthday($year, $month, $day) {
-    $now = new DateTime();
-    return $now->diff(new DateTime($year.sprintf('%02d', $month). sprintf('%02d', $day)))->y;
-}
-?>
+
 <body>
     <div class="haeder card">
         <img class="icon left" src="https://twitter.com/n_ee_t/profile_image?size=original">
@@ -24,7 +19,6 @@ function getAgeFromBirthday($year, $month, $day) {
                 <p>プロフィール</p>
                 <li>
                     <ul><p>名前: ちゅん</p></ul>
-                    <ul><p>年齢: <?php echo(getAgeFromBirthday(2001, 3, 7))."歳";?></p></ul>
                     <ul><p>誕生日: 3月7日</p></ul>
                 </li>
                 <p>好きなもの</p>

@@ -33,7 +33,7 @@ div.left {
 body {
     background-color: #000;
 }
-p, .indent > li{
+p, .indent > ul{
     color: #fff;
     list-style: none;
 }

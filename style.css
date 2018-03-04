@@ -33,12 +33,12 @@ div.left {
 body {
     background-color: #000;
 }
-p, .indent > ul{
+p, .indent > li{
     color: #fff;
     list-style: none;
 }
 .indent{
-    padding-left: 2vw;
+    margin-left: 2vw;
 }
 .left > p{
     padding-left: 4vw;

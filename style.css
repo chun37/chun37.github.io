@@ -33,10 +33,11 @@ div.left {
 body {
     background-color: #000;
 }
-p {
+p, .indent > ul{
     color: #fff;
+    list-style: none;
 }
-ul > p{
+.indent{
     padding-left: 2vw;
 }
 .left > p{

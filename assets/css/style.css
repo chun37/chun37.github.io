@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap);
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* div.right {
+    width: 30%;
+    float: right;
+}
+.right {
+    float: right;
+}
+div.left {
+    width: 69%;
+    float: left;
+}
+.left {
+    float: left;
+}
+.crear {
+    clear: both;
+}
+.card {
+    background-color: #555;
+    border-radius: 10px;
+}
+.center {
+    text-align: center;
+}
+p, .indent > li{
+    color: #fff;
+    list-style: none;
+}
+.indent{
+    margin-left: 2vw;
+}
+.left > p{
+    padding-left: 4vw;
+}
+h1.title {
+    color: #fff;
+    display:table-cell;
+    line-height: 11.5vw;
+    font-size:4vw;
+}
+.right a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    line-height: 1;
+    border-radius: 10px;
+}
+.haeder {
+    margin-bottom: 1%;
+}
+img.icon {
+    width: 10%;
+    height: auto;
+    margin: 15px;
+    border-radius: 50%;
+    display:table-cell;
+}
+label {
+    display: block;
+    margin: 0 0 2px 0;
+    padding :12px;
+    line-height: 1;
+    color :#fff;
+    cursor :pointer;
+}
+input {
+    display: none;
+}
+.right ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+}
+.right li {
+    max-height: 0;
+    overflow-y: hidden;
+}
+#menu_bar00:checked ~ #links00 li,
+#menu_bar01:checked ~ #links01 li,
+#menu_bar02:checked ~ #links02 li {
+    max-height: 100%;
+    opacity: 1;
+} */
+
+body {
+    margin: 0;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.top {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+.icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 20%;
+}
+
+.name {
+    margin: 0 10px;
+    font-size: 40px;
+}
+
+h3 {
+    margin: 0 10px;
+}
+
+.social-contents {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: solid 1px rgb(228, 228, 228);
+    box-shadow: 3px 3px 4px -3px;
+    padding: 10px;
+    flex-basis: 224px;
+    margin: 10px 0;
+    border-radius: 14px / 25%;
+}
+
+.card > i {
+    font-size: 30px;
+}
+
+.card > div {
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 601px) {
+    .main {
+        width: 600px;
+    }
+    .social-contents {
+        justify-content: space-between;
+    }
+}

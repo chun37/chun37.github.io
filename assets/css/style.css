@@ -39,7 +39,7 @@ h3 {
     margin: 0 10px;
 }
 
-.social-contents {
+.contents {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +61,7 @@ h3 {
     font-size: 30px;
 }
 
-.card > div {
+.card > .text {
     margin: 0 0 0 10px;
 }
 
@@ -73,6 +73,28 @@ h3 {
     height: 100%;
 }
 
+.card-icon-wrapper {
+    height: 30px;
+    width: 37.5px;
+    text-align: center;
+}
+
+.card-icon {
+    max-width: 30px;
+}
+
+.fa-discord {
+    color: #7289DA;
+}
+
+.fa-mastodon {
+    color: #2b90d9;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
 @media screen and (min-width: 601px) {
 
     .main {
@@ -82,7 +104,7 @@ h3 {
 
 @media screen and (min-width: 551px) {
 
-    .social-contents {
+    .contents {
         flex-direction: row;
         justify-content: space-between;
     }

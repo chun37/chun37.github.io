@@ -1,0 +1,33 @@
+---
+import "@/styles/globals.css";
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/jpeg" href="/images/icon.jpg" />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:title" content="chun37" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chun37.com" />
+    <meta
+      property="og:image"
+      content="https://chun37.com/assets/images/icon.jpg"
+    />
+    <title>{title}</title>
+    <script
+      src="https://kit.fontawesome.com/229b8f6675.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

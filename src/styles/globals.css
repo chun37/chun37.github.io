@@ -73,6 +73,6 @@
     @apply border-border font-noto-sans-jp;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground px-4;
   }
 }

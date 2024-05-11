@@ -58,6 +58,32 @@ import CardContent from "@/components/CardContent.astro";
     </div>
     <div>
       <h2 class="text-2xl mt-4">Blog</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 -mx-2">
+        <Card href="https://google.co.jp">
+          <div class="w-[37.5px] text-center mx-2">
+            <Image
+              src="/images/hatenablog.png"
+              alt="hatenablog"
+              width="30"
+              height="30"
+              class="mx-auto"
+            />
+          </div>
+          <CardContent title="Hatena Blog" body="chun37" />
+        </Card>
+        <Card href="https://google.co.jp">
+          <div class="w-[37.5px] text-center mx-2">
+            <Image
+              src="/images/qiita.png"
+              alt="qiita"
+              width="30"
+              height="30"
+              class="mx-auto"
+            />
+          </div>
+          <CardContent title="Qiita" body="chun37" />
+        </Card>
+      </div>
     </div>
   </main>
 </Layout>

@@ -23,11 +23,12 @@ const { title } = Astro.props;
       content="https://chun37.com/assets/images/icon.jpg"
     />
     <title>{title}</title>
-    <script
-      src="https://kit.fontawesome.com/229b8f6675.js"
-      crossorigin="anonymous"></script>
   </head>
   <body>
     <slot />
   </body>
 </html>
+<script
+  is:inline
+  src="https://kit.fontawesome.com/229b8f6675.js"
+  crossorigin="anonymous"></script>

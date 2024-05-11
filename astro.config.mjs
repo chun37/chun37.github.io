@@ -11,4 +11,5 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
+  site: "https://chun37.com",
 });
